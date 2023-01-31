@@ -399,6 +399,7 @@ ul {
 }
 .socials-footer {
   width: 208px;
+  color: var(--white-color);
 }
 .socials-footer-list {
   display: flex;
