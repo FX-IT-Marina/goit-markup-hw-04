@@ -230,7 +230,7 @@ ul {
   flex-basis: calc((100% - (var(--indent) * var(--items1))) / var(--items2));
 }
 .icons-container {
-  padding: 0;
+  height: 112px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,8 +251,7 @@ ul {
   line-height: 1.2;
 }
 .section-text {
-  margin-top: 0;
-  margin-bottom: 8px;
+  margin-top: 8px;
   font-variant: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -309,6 +308,11 @@ ul {
 .team-section {
   background: var(--color-light);
 }
+.team-text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
 .team-wrapper {
   padding-top: 32px;
   padding-right: 16px;
@@ -340,8 +344,10 @@ ul {
 }
 .social-icon {
   fill: currentColor;
+  height: 16px;
 }
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   background-color: var(--hover-color);
 }
 
@@ -360,8 +366,9 @@ ul {
   border-radius: 4px;
   fill: var(--border-color);
 }
+
 .customers-icon {
-  fill: currentColor;
+  height: 56px;
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -418,7 +425,7 @@ ul {
 }
 
 .socials-link-footer:hover,
-:focus {
+.socials-link-footer:focus {
   background-color: var(--hover-color-icons);
 }
 
@@ -479,8 +486,7 @@ ul {
 
 .portfolio-list-item {
   flex-basis: calc((100% - (var(--indent) * var(--items3))) / var(--items1));
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .card-link {
   text-decoration: none;
@@ -490,6 +496,7 @@ ul {
 .card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: block;
 }
 /* Footer */
 .footer-section {
