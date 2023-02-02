@@ -238,6 +238,10 @@ ul {
   border-radius: 4px;
   margin-bottom: 8px;
 }
+/* .features-icon {
+  width: 64px;
+  height: 64px;
+} */
 /* .feature-list-item:not(:last-child) {
   margin-right: 24px;
 } */
@@ -414,6 +418,10 @@ ul {
   align-items: center;
   padding-top: 16px;
 }
+/* .footer-icon {
+  width: 24px;
+  height: 24px;
+} */
 .socials-link-footer {
   display: flex;
   justify-content: center;
